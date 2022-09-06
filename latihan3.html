@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Latihan Table</title></head>
+	<body>
+		<h3><font face="verdana">Latihan Membuat Inputan Form HTML (produk)</font><br/></h3>
+        <hr style="border: 3"/>
+        <br/>
+        <form name="tabelproduk" method="get" action="#">
+        <table border="1" align="center" cellpading="10" width="50">
+        <thead>
+    
+        <tr bgcolor="azure">
+        <th colspan="2">Form Register Produk</th>
+        </tr>
+        </thead>
+        
+        <tbody>
+        <tr>
+        <td width="30%">Nama Produk</td>
+        <td><input type="text" name="nama" value="" placeholder="Nama Produk" size="50" maxlength="100"/></td>
+        </tr>
+        <tr>
+        <td>Jenis Produk</td>
+        <td><select name="kategori">
+            <option value="" selected>-- Kategori Produk --</option>
+            <option value="TV">TV</option>
+            <option value="HP">HandPhone</option>
+            <option value="KULKAS">Kulkas</option>
+            <option value="CUCI">Mesin Cuci</option>
+            <option value="Dispenser">Dispenser</option>
+            </select></td>
+        </tr>
+        <tr>
+        <td>Harga</td>
+        <td><input type="text" name="harga" value="" size="50" maxlength="100"/></td><br/>
+        </tr>
+        <tr>
+        <td>Stok</td>
+        <td><input type="text" name="stok" value="" size="50" maxlength="100"/></td><br/>
+        </tr>
+        <tr>
+        <td>Photo</td>
+        <td><input type="text" name="photo" value="" placeholder="masukkan foto produk" size="50" maxlength="100"/></td>
+        </tr>
+        
+        </tbody>
+            
+        <tfoot>
+        <tr bgcolor="grey">
+        <th colspan="2"><input type="submit" name="kirim" value="kirim"/>&nbsp;&nbsp;
+        <input type="reset" name="batal" value="reset" size="50" maxlength="100"/>
+            </th>
+            
+        </tr>
+        </tfoot>
+        <br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<table border="1" align="center" cellpading="10" width="50">
+			<thead>
+		
+			<tr bgcolor="azure">
+			<th colspan="2">Form Register member</th>
+			</tr>
+			</thead>
+			
+			<tbody>
+			<tr>
+			<td width="30%">Username</td>
+			<td><input type="text" name="nama" value="" placeholder="masukkan username anda" size="50" maxlength="100"/></td>
+			</tr>
+			<tr>
+			<td>Password</td>
+			<td><input type="password" name="password" value="" placeholder="masukkan password anda" size="50" maxlength="100"/></td>
+			</tr>
+			
+			</tbody>
+				
+			<tfoot>
+			<tr bgcolor="pink">
+			<th colspan="2"><input type="submit" name="kirim" value="kirim"/>&nbsp;&nbsp;
+			<input type="reset" name="batal" value="reset" size="50" maxlength="100"/>
+				</th>
+				
+			</tr>
+			</tfoot>
+			
+			
+			
+			
+			
+			</table>
+			</form>
+        
+        
+        
+        
+        </table>
+        </form>
+	</body>
+</html>

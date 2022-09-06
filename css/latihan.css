@@ -1,0 +1,21 @@
+body{
+  background-color: lightblue ;
+  background-image: url(https://images.unsplash.com/photo-1531804055935-76f44d7c3621?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG98ZW58MHx8MHx8&w=1000&q=80);
+  background-repeat: repeat-y ;
+}
+h3 {
+  font-family: montserrat, verdana, sans-serif, tahoma;
+
+  font-size: 32px;
+  font-weight: normal;
+  font-variant: small-caps;
+  font-style: oblique;
+}
+
+p {
+  font-family: railway, georgia;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 5px;
+}
+

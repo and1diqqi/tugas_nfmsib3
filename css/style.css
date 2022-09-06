@@ -1,0 +1,95 @@
+p{
+    color: white;
+    text-align: justify;
+    font-family: calibri,verdana,comic sans,tahoma;
+    font-size: 12pt;
+    font-style: italic;
+
+
+}
+body{
+    background-color: khaki;
+    background-repeat: repeat-x;
+    background-position: top right;
+    background-attachment: fixed;
+    margin:0cm 3cm;
+
+}
+
+hr{
+    border-width: 1px;
+    border-color: #990000;
+    border-style: dashed;
+
+}
+
+fieldset,legend{
+    padding: 10px;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-family: ubuntu,calibri;
+    letter-spacing: 5px;
+}
+
+table{
+    border: 1px solid maroon;
+    position: center;
+    justify-content: center;
+    margin: auto;
+}
+td{
+    padding: 5px;
+    border: 1px solid green;
+}
+
+ol{
+    list-style-image: ;
+}
+
+ul{
+    list-style-image: ;
+}
+
+div#menu{
+    text-align: center;
+    font-family: calibri,tahoma,jokerman,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    text-decoration: none;
+    color: maroon;
+    padding: 10px 0px;
+}
+a.item:active,a.item:visited,a.item:link{
+    text-decoration: none;
+    font-size: 16pt;
+    color: blue;
+    border: 1px solid lightseagreen;
+    padding: 5px;
+    background: greenyellow;
+    margin: 0px 10px;
+}
+
+a.item:hover{
+    text-decoration: none;
+    font-size: 16pt;
+    color: red;
+    border: 2px solid mediumorchid;
+    padding: 5px;
+    background: gray;
+    margin: 0px 10px;
+}
+
+p.p3:first-letter{
+    color:aqua;
+    font-style: italic;
+    font-size: 36pt;
+    font-weight: bold;
+    font-family: algerian,jokerman;
+    float: left;
+    padding-right: 10px;
+    margin-top: 0;
+}
+
+
+

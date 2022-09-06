@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    background-image: url(https://www.grouphigh.com/wp-content/uploads/2015/09/mcdonalds.jpg);
+    background-position: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .btn{
+      border: 1px solid #3498db;
+      background: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      font-family: "montserrat";
+      cursor: pointer;
+      margin: 10px;
+  }
+
+  .btn1,.btn2{
+      color: #fff;
+  }
+
+  .btn3,.btn4{
+    color: #fff;
+}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover{
+    color: #3498db;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: auto;
+    height: auto;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.btn::before,.btn3::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.btn::before,.btn3::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+  }
+  
+  /* Middle column */ 
+  .image-resize.id{
+      height: 100px;
+  }
+  .column.middle {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
